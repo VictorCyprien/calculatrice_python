@@ -20,6 +20,14 @@ def push(button: int):
     if button == "+" or button == "-" or button == "*" or button == "/" or button == "=":
         if expression == "":
             return
+        
+        if (
+            expression.endswith("+")
+            or expression.endswith("-")
+            or expression.endswith("*")
+            or expression.endswith("/")
+        ):
+            return
 
     if button == "=":
         compute()
