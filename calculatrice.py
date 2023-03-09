@@ -1,3 +1,4 @@
+from sys import platform
 from tkinter import Tk, StringVar, Label, messagebox
 
 # Globals variables
@@ -78,7 +79,13 @@ if __name__ == "__main__":
     interface.title("Calculatrice")
 
     # Size
-    interface.geometry("325x475")
+    print(f"Version : {platform}")
+    if platform == "linux" or platform == "linux2":
+        # Linux
+        interface.geometry("425x575")
+    elif platform == "win32":
+        # Windows
+        interface.geometry("325x475")
 
     # Store content
     equation = StringVar()
