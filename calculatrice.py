@@ -82,7 +82,7 @@ if __name__ == "__main__":
     print(f"Version : {platform}")
     if platform == "linux" or platform == "linux2":
         # Linux
-        interface.geometry("425x575")
+        interface.geometry("575x725")
     elif platform == "win32":
         # Windows
         interface.geometry("325x475")
