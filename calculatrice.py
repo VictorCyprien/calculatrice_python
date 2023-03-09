@@ -1,4 +1,5 @@
 from sys import platform
+import matplotlib
 from tkinter import Tk, StringVar, Label, messagebox
 
 # Globals variables
