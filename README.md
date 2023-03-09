@@ -16,5 +16,17 @@ On crée un virtualenv
 Puis on installe les librairies
 * `pip install -r requirements.txt`
 
+## Exécuter l'application avec Python
+* `python calculatrice.py`
+
 ## Générer l'application
 * `pyinstaller.exe --onefile calculatrice.py`
+
+## Emplacement de l'application
+* `/dist/calculatrice`
+
+## Exécuter l'application sur Windows
+* Double clique sur calculatrice.exe 
+
+## Exécuter l'application sur Windows
+* Depuis le dossier dist : `./calculatrice`
