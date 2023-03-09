@@ -19,8 +19,12 @@ def push(button: int):
     if button == "=":
         compute()
         return
-    
+
     global expression
+    if button == "+" or button == "-" or button == "*" or button == "/":
+        if expression == "":
+            return
+    
     expression += str(button)
     equation.set(expression)
 
