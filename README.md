@@ -19,6 +19,9 @@ Puis on installe les librairies
 ## Exécuter l'application avec Python
 * `python calculatrice.py`
 
+__NOTE :__ En cas d'erreur d'execution sur Linux, installer la dépendence python3.8-tk sur un autre terminal
+* `sudo apt-get install python3.8-tk`
+
 ## Générer l'application
 * `pyinstaller.exe --onefile calculatrice.py`
 
